@@ -1,18 +1,29 @@
 .container {
     display: flex;
-    width: 100%;
+    width: 40%;
     height: 100%;
     background-color: #fdfdfd;
     flex-direction: column;
 }
 
 .bubble {
-    
+    text-align: justify;
+    font-family: 'Calibri';
     padding: 15px;
     border-radius: 3px;
-    width: 10vw;
+    width: 13vw;
 }
 
+.their {
+    display: flex;
+    column-gap: 15px;
+}
+
+.profilePic {
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+}
 .them {
     align-self: flex-start;
     background-color: greenyellow;
