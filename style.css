@@ -4,6 +4,7 @@
     height: 100%;
     background-color: #fdfdfd;
     flex-direction: column;
+    margin: 0 25vw;
 }
 
 .bubble {
@@ -26,10 +27,22 @@
 }
 .them {
     align-self: flex-start;
-    background-color: greenyellow;
+    background-color: #f1ffef;
 }
 
 .me {
     align-self: flex-end;
-    background-color: lightskyblue;
+    background-color: #f1f5fb;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    text-align: right;
+    padding-top: 10px;
+    font-size: small;
+    color: grey;
 }
