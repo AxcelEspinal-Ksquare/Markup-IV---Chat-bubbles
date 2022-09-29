@@ -41,8 +41,13 @@
 }
 
 .time {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
     padding-top: 10px;
     font-size: small;
     color: grey;
+}
+
+.state {
+    margin: 0 5px
 }
